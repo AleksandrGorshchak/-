@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: ApiTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.649 s <<< FAILURE! - in ApiTest
+ApiTest.checkUserName  Time elapsed: 0.231 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path data.name doesn't match.
+Expected: 89650100100@mail.ru
+  Actual: Василий Васильев
+
+	at ApiTest.checkUserName(ApiTest.java:43)
+
+ApiTest.checkUserNameAndPrintResponseBody  Time elapsed: 0.243 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path data.name doesn't match.
+Expected: 89650100100@mail.ru
+  Actual: Василий Васильев
+
+	at ApiTest.checkUserNameAndPrintResponseBody(ApiTest.java:55)
+

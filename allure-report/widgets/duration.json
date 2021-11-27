@@ -1,0 +1,61 @@
+[ {
+  "uid" : "4bcd57661d9afa16",
+  "name" : "checkUserName()",
+  "time" : {
+    "start" : 1636837132319,
+    "stop" : 1636837132345,
+    "duration" : 26
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "699c0aa58921272f",
+  "name" : "checkUserNameAndPrintResponseBody()",
+  "time" : {
+    "start" : 1636837132228,
+    "stop" : 1636837132262,
+    "duration" : 34
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ea306c237df54da",
+  "name" : "checkUserNameAndPrintResponseBody()",
+  "time" : {
+    "start" : 1636837132365,
+    "stop" : 1636837132391,
+    "duration" : 26
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "82751d5228f9e6cd",
+  "name" : "getMyInfoStatusCode()",
+  "time" : {
+    "start" : 1636837132397,
+    "stop" : 1636837132429,
+    "duration" : 32
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8be9e3d5060eec",
+  "name" : "getMyInfoStatusCode()",
+  "time" : {
+    "start" : 1636837132268,
+    "stop" : 1636837132290,
+    "duration" : 22
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f3b50ac7f32ac231",
+  "name" : "checkUserName()",
+  "time" : {
+    "start" : 1636837130119,
+    "stop" : 1636837132152,
+    "duration" : 2033
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

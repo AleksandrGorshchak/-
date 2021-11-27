@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: ApiPutTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 2, Skipped: 0, Time elapsed: 6.974 s <<< FAILURE! - in ApiPutTest
+ApiPutTest.checkUserName  Time elapsed: 5.53 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path data.name doesn't match.
+Expected: 89650100100@mail.ru
+  Actual: Василий Васильев
+
+	at ApiPutTest.checkUserName(ApiPutTest.java:101)
+
+ApiPutTest.Patch  Time elapsed: 0.233 s  <<< ERROR!
+java.io.FileNotFoundException: src/test/java/Tests/updateProfile.json (No such file or directory)
+	at ApiPutTest.Patch(ApiPutTest.java:80)
+
+ApiPutTest.createNewPlaceAndCheckResponse  Time elapsed: 0.099 s  <<< ERROR!
+java.io.FileNotFoundException: src/test/java/Tests/newCard.json (No such file or directory)
+	at ApiPutTest.createNewPlaceAndCheckResponse(ApiPutTest.java:44)
+
+ApiPutTest.checkUserNameAndPrintResponseBody  Time elapsed: 0.394 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path data.name doesn't match.
+Expected: 89650100100@mail.ru
+  Actual: Василий Васильев
+
+	at ApiPutTest.checkUserNameAndPrintResponseBody(ApiPutTest.java:110)
+

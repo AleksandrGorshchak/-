@@ -1,0 +1,115 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestApi",
+    "children" : [ {
+      "name" : "checkUserName",
+      "uid" : "f3b50ac7f32ac231",
+      "parentUid" : "4c6232bbf45d32fa3a81c87d87575db2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636837130119,
+        "stop" : 1636837132152,
+        "duration" : 2033
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkUserNameAndPrintResponseBody",
+      "uid" : "699c0aa58921272f",
+      "parentUid" : "4c6232bbf45d32fa3a81c87d87575db2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636837132228,
+        "stop" : 1636837132262,
+        "duration" : 34
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getMyInfoStatusCode",
+      "uid" : "8be9e3d5060eec",
+      "parentUid" : "4c6232bbf45d32fa3a81c87d87575db2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636837132268,
+        "stop" : 1636837132290,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4c6232bbf45d32fa3a81c87d87575db2"
+  }, {
+    "name" : "RestAssuredGetAllureTest",
+    "children" : [ {
+      "name" : "checkUserName",
+      "uid" : "4bcd57661d9afa16",
+      "parentUid" : "045a27d96b0fc599e975bac3692c68b7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636837132319,
+        "stop" : 1636837132345,
+        "duration" : 26
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkUserNameAndPrintResponseBody",
+      "uid" : "ea306c237df54da",
+      "parentUid" : "045a27d96b0fc599e975bac3692c68b7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636837132365,
+        "stop" : 1636837132391,
+        "duration" : 26
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getMyInfoStatusCode",
+      "uid" : "82751d5228f9e6cd",
+      "parentUid" : "045a27d96b0fc599e975bac3692c68b7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636837132397,
+        "stop" : 1636837132429,
+        "duration" : 32
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "045a27d96b0fc599e975bac3692c68b7"
+  } ]
+}
